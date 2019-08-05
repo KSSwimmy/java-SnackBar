@@ -1,5 +1,12 @@
 package snackBar;
 
+    // Snack has fields (so knows)
+
+    //id
+    //name
+    //quantity
+    //cost
+    //vending machine id
 
 public class Snack  
 {
@@ -10,7 +17,8 @@ public class Snack
     private double cost;
     private int vendingMachineID;
 
-    public Snack  (String name, int quantity, double cost, int vendingMachineID)
+    //constructor 
+    public Snack (String name, int quantity, double cost, int vendingMachineID)
     {
         maxId++;
         id = maxId;
@@ -21,11 +29,23 @@ public class Snack
         this.vendingMachineID = vendingMachineID;
     }
 
+    //Snack has methods (so can)
+
+    //set and get id
+    // set and get name
+    // set and get cost
+    // set and get vending machine id
+    // get quantity
+    // add quantity when given how many to add 
+    // buy snack when given how many to buy
+    // get total cost given a quantity
+
+
+   //Getters and Setters 
     public int getId()
     {
         return id;
     }
-
 
 
     public String getName()
@@ -56,7 +76,7 @@ public class Snack
 
 
 
-    public int getMachineID()
+    public int getvendingMachineID()
     {
         return vendingMachineID;
     }
@@ -91,7 +111,7 @@ public class Snack
 
 
 
-
+// 
        @Override
    public String toString()
    {

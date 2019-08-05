@@ -16,25 +16,35 @@ public class Customer
         this.balance = balance;
     }
 
+    
+
     public String getName()
     {
         return name;
     }
+
+
 
     public double getCashOnHand()
     {
         return balance;
     }
 
+
+
     public void addCash(double addedCash)
     {
         this.balance = balance + addedCash;
     }
 
+
+
     public void purchaseSnack(int quantity, double cost)
     {
         this.balance = balance - (quantity * cost);
     }
+
+
 
     public void setName()
     {
