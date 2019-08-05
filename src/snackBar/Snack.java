@@ -111,7 +111,13 @@ public class Snack
 
 
 
-// 
+// Stretch Goals
+
+// Display each *snack* with
+// Name
+// Vending Machine Name
+// Quantity on hand
+// Total cost of all of the quantities of this snack on hand
        @Override
    public String toString()
    {
