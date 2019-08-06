@@ -21,7 +21,7 @@ public class Main
         System.out.println("*** Snack Bar Data ***");
 
         System.out.println("*** Snack Bar Inventory ***");
-        System.out.println(s1);
+        System.out.println(s1); 
         System.out.println(s2);
         System.out.println(s3);
         System.out.println(s4);
@@ -83,3 +83,56 @@ public class Main
         workMachine();
     }
 }
+
+
+
+ //PRINT OUT COMMANDS 
+
+
+// Once in the src/ folder:
+// Type javac employeeApp/*.java to compile all of the .java files
+// Type jar cvfe EmpApp.jar employeeApp.Main employeeApp/*.class to compile all the .classfiles into a jar file
+// Type java -jar EmpApp.jar to run the .jarfile you created
+
+
+    // IT PRINTS OUT 
+
+//     *** Snack Bar Data ***
+// *** Snack Bar Inventory ***
+// Name: Chips
+// Vending Machine Number: 1
+// Quantity On Hand: 36
+// Total cost of all the quantities of this snack on hand: $63.0
+
+// Name: Chocolate Bar
+// Vending Machine Number: 1
+// Quantity On Hand: 36
+// Total cost of all the quantities of this snack on hand: $36.0
+
+// Name: Pretzel
+// Vending Machine Number: 1
+// Quantity On Hand: 30
+// Total cost of all the quantities of this snack on hand: $60.0
+
+// Name: Soda
+// Vending Machine Number: 2
+// Quantity On Hand: 24
+// Total cost of all the quantities of this snack on hand: $60.0
+
+// Name: Water
+// Vending Machine Number: 2
+// Quantity On Hand: 20
+// Total cost of all the quantities of this snack on hand: $55.0
+
+// Jane has a balance of $37.75
+// Soda has 21 left
+// Jane has a balance of $35.75
+// Pretzel has 29 left
+// Bob has a balance of $28.14
+// Soda has 19 left
+// Jane has a balance of $45.75
+// Jane has a balance of $44.75
+// Chocolate Barhas 35left
+// Pretzel has 41 left
+// Bob has a balance of $22.14
+// Pretzel has 38 left
