@@ -2,10 +2,15 @@ package snackBar;
 
 public class Vendingmachine 
 {
+    //Vending machine has fields (so knows)
+    // id
+    // name
     private static int maxId = 0;
     private int id;
     private String name;
 
+
+    //constructor 
     public Vendingmachine(String name)
     {
         maxId++;
